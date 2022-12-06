@@ -1,5 +1,5 @@
 # Фото
-<img src="./photo/1111.png" alt="photo" width="150"/>
+<img src="./photo/22222.png" alt="photo" width="150"/>
 
 # О себе
 Тусаев Максим
