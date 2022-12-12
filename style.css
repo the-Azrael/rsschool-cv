@@ -1,0 +1,15 @@
+header {
+  color: red;
+}
+
+main {
+  color: black;
+}
+
+footer {
+  color: blueviolet;
+}
+
+#title {
+  font-size: 50px;
+}
