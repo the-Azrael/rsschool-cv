@@ -1,4 +1,4 @@
 # rsschool-cv
 https://the-Azrael.github.io/rsschool-cv/cv
 
-https://the-Azrael.github.io/rsschool-cv/index.html
+https://the-Azrael.github.io/rsschool-cv/
