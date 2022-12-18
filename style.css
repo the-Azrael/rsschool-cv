@@ -108,7 +108,6 @@ header {
   align-items: center;
   flex-flow: row wrap;
   background-color: var(--secBkColor);
-  justify-content: center;
 }
 
 .myFooter-logo {
