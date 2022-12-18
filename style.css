@@ -35,7 +35,7 @@ h1 {
   font-size: 3.5rem;
 }
 
-header, footer {
+header {
   display: flex;
   flex-direction: row;
   width: calc(100% - var(--margin));
@@ -93,6 +93,25 @@ header, footer {
   width: calc(var(--imgWidth) - 10px);  
 }
 
-.skills {
-  text-align: left;
+.myContent {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: 2;
+}
+
+.myFooter {
+  display: flex;
+  flex-direction: column;
+  width: calc(100% - var(--margin));
+  margin: var(--margin);
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  background-color: var(--secBkColor);
+  justify-content: center;
+}
+
+.myFooter-logo {
+  width: 150px;
+  height: 150px;
 }
