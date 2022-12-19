@@ -1,0 +1,116 @@
+:root {
+  --primBkColor: rgb(3, 208, 245);
+  --secBkColor: rgb(243, 193, 193);
+  --primaryFontColor: #FFFFFF;
+  --margin: 4px;
+  --padding: 4px;
+  --doubleMargin: 2;
+  --minWidth: calc(200px - var(--margin) * var(--doubleMargin));
+  --imgWidth: calc(150px - var(--margin) * var(--doubleMargin));
+  --imgHeight: calc(150px - var(--margin) * var(--doubleMargin));
+  --www: calc(100% - var(--margin));
+}
+
+body {
+  margin: 0 auto;
+  max-width: 1024px;  
+  font-family: 'RocknRoll One', sans-serif;
+  background-color: rgb(25, 23, 35);
+  color: var(--primaryFontColor);
+}
+
+.myBasics {
+  display: flex; 
+  flex-direction: column;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Francois One', sans-serif;
+  margin: 2px;
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  width: calc(100% - var(--margin));
+  margin: var(--margin);
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.myNavigator {
+  display: flex;
+  flex-direction: row;
+  width: var(--www);    
+  justify-content: space-around;
+  margin: var(--margin);
+  padding: 10px 0;
+  border-radius: 5px;
+  background-color: var(--secBkColor);
+}
+
+.myNavigator-link {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.myInfo {  
+  border-radius: 5px;
+  flex-grow: 2;
+  display: flex;
+  flex-direction: column;
+  margin: var(--margin);
+  flex-wrap: wrap;
+  min-width: var(--minWidth);
+  height: var(--imgHeight);
+  background-color: var(--primBkColor);
+}
+
+.myName, .myContacts {
+  display: flex;  
+  margin: var(--margin);
+  margin: var(--margin);
+  flex-direction: column;
+  text-align: center;
+}
+
+.myPhoto {
+  display: flex;
+  margin: var(--margin);
+  align-content: center;
+  background-color: var(--primBkColor);
+}
+
+.myPhoto-img {
+  border-radius: 50%;
+  max-height: calc(var(--imgHeight) - 10px);
+  width: calc(var(--imgWidth) - 10px);  
+}
+
+.myContent {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: 2;
+}
+
+.myFooter {
+  display: flex;
+  flex-direction: column;
+  width: calc(100% - var(--margin));
+  margin: var(--margin);
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  background-color: var(--secBkColor);
+}
+
+.myFooter-logo {
+  width: 150px;
+  height: 150px;
+}
